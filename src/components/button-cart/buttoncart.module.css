@@ -1,0 +1,9 @@
+.button{
+  position: absolute;
+  right: 30px;
+  top: 100px;
+  z-index: 10;
+}
+.button_hide {
+ display: none;
+}

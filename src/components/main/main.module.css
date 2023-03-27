@@ -1,0 +1,30 @@
+.block {
+  display: flex;
+}
+.route {
+  position: relative;
+}
+.title {
+  position: absolute;
+  top: 45px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #000000;
+  font-size: 25px;
+  font-weight: 800;
+}
+.route img {
+  width: 100%;
+}
+@media (max-width: 980px) {
+  .block {
+    flex-direction: column;
+  }
+}
+@media (max-width: 650px) {
+  .title {
+    top: 28px;
+    font-size: 16px;
+    font-weight: 700;
+  }
+}

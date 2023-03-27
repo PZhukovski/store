@@ -1,0 +1,146 @@
+.wrapper {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity ease-in-out 0.3s;
+}
+.wrapperShow {
+  display: block;
+  z-index: 9;
+  opacity: 1;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.6;
+  width: 100%;
+  background-color: #ffffff;
+}
+.menu {
+  max-width: 300px;
+  background-color: #000000;
+  transition: transform ease-in-out 0.3s;
+  transform: translate(100%, 0);
+  z-index: 9;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+}
+.menuShow {
+  transform: translate(0, 0);
+  transition: transform ease-in-out 0.5s;
+  z-index: 99;
+}
+.button {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 99;
+  border: none;
+  background-color: #000000;
+}
+.buttonImg {
+  width: 34px;
+  height: 30px;
+}
+.container {
+  box-sizing: border-box;
+  padding: 48px 40px 38px;
+  position: relative;
+  height: auto;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.logo {
+  display: none;
+}
+.links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0 ;
+  margin-top: 25px;
+}
+.link {
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: 900;
+  outline: none;
+  margin-bottom: 15px;
+  display: inline-block;
+  text-decoration: none;
+}
+.link:active,
+link:focus,
+.activeLink {
+  color: #ef3124;
+}
+.footer {
+  margin-top: auto;
+}
+.policy a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 700;
+}
+.socialLinks {
+  margin-top: 24px;
+}
+.socialImg {
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 8px;
+  margin-top: 2px;
+}
+@media (max-width: 980px) {
+  .menu {
+    background-color: #ffffff;
+  }
+  .menuShow {
+    min-width: 100vw;
+  }
+  .menu {
+    max-width: 100%;
+  }
+  .container {
+    padding: 42px 25px 25px;
+  }
+  .logo {
+    display: block;
+    margin-bottom: 25px;
+    color: #ef3124;
+    font-size: 45px;
+    font-weight: 800;
+    text-decoration: none;
+  }
+  .button {
+    background-color: #ffffff;
+  }
+  .links {
+    display: flex;
+    flex-direction: column;
+  }
+  .link,
+  .policy a {
+    color: #000000;
+  }
+}

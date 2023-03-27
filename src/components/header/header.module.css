@@ -1,0 +1,33 @@
+.block {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 15px;
+  height: 30px;
+  font-size: 32px;
+  font-weight: 700;
+}
+.logo {
+  color: #ef3124;
+}
+.link , .link:active, .link:hover {
+  text-decoration: none;
+}
+.menu {
+  display: flex;
+}
+.icon {
+  margin-right: 0;
+  height: 36px;
+}
+.href {
+  display: none;
+}
+@media (min-width: 980px) {
+  .href {
+    display: flex;
+    align-self: center;
+  }
+  .icon  {
+    margin-right: 10px;
+  }
+}

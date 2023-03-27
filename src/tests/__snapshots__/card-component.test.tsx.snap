@@ -1,0 +1,180 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot Card 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="block"
+      >
+        <div
+          class="slider_group"
+        >
+          <div
+            class="wrapper_image"
+          >
+            <div
+              class="image"
+              style="background-image: url(undefined);"
+            />
+            <div
+              class="images_gallery"
+            />
+          </div>
+        </div>
+        <form>
+          <div
+            class="description"
+          >
+            <h4
+              class="typography__component_mub95 typography__styrene-small_g9g7d typography__medium_mub95"
+            />
+            <div
+              class="gap__gap_15oeq gap__vertical_15oeq"
+              data-gap-size="m"
+            />
+            <h4
+              class="typography__component_mub95 typography__styrene-small_g9g7d typography__bold_mub95"
+            >
+               ₽
+            </h4>
+            <div
+              class="gap__gap_15oeq gap__vertical_15oeq"
+              data-gap-size="m"
+            />
+            <button
+              class="button__component_s1pl2 button__xs_s1pl2 button__component_17krt button__primary_17krt"
+              type="submit"
+            >
+              <span
+                class="button__text_s1pl2 button__stretchText_s1pl2"
+              >
+                В корзину
+              </span>
+            </button>
+            <div
+              class="gap__gap_15oeq gap__vertical_15oeq"
+              data-gap-size="m"
+            />
+            <div
+              class="typography__secondary-medium_11grk typography__medium_11grk"
+            />
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="block"
+    >
+      <div
+        class="slider_group"
+      >
+        <div
+          class="wrapper_image"
+        >
+          <div
+            class="image"
+            style="background-image: url(undefined);"
+          />
+          <div
+            class="images_gallery"
+          />
+        </div>
+      </div>
+      <form>
+        <div
+          class="description"
+        >
+          <h4
+            class="typography__component_mub95 typography__styrene-small_g9g7d typography__medium_mub95"
+          />
+          <div
+            class="gap__gap_15oeq gap__vertical_15oeq"
+            data-gap-size="m"
+          />
+          <h4
+            class="typography__component_mub95 typography__styrene-small_g9g7d typography__bold_mub95"
+          >
+             ₽
+          </h4>
+          <div
+            class="gap__gap_15oeq gap__vertical_15oeq"
+            data-gap-size="m"
+          />
+          <button
+            class="button__component_s1pl2 button__xs_s1pl2 button__component_17krt button__primary_17krt"
+            type="submit"
+          >
+            <span
+              class="button__text_s1pl2 button__stretchText_s1pl2"
+            >
+              В корзину
+            </span>
+          </button>
+          <div
+            class="gap__gap_15oeq gap__vertical_15oeq"
+            data-gap-size="m"
+          />
+          <div
+            class="typography__secondary-medium_11grk typography__medium_11grk"
+          />
+        </div>
+      </form>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
